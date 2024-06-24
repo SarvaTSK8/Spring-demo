@@ -6,13 +6,6 @@ on:
       - main
   workflow_dispatch:  
 jobs:
-  buildjob1:
-    runs-on: ubuntu-latest
-    steps: 
-    - name: buildstep1
-      uses: actions/checkout@v4
-
-jobs:
   example:
     runs-on: ubuntu-latest # All OS are supported!
     steps:
