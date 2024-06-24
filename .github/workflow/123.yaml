@@ -15,4 +15,9 @@ jobs:
    runs-on: macos-latest
      steps:
       - name: buildstep2
-         uses: actions/checkout@v4   
+         uses: actions/checkout@v4 
+ buildjob3:
+   runs-on: macos-latest
+       steps:
+         - name: buildstep3
+           uses: actions/checkout@v4   
